@@ -11,7 +11,7 @@ ssh <username>@<server> -p <port>
 ```
 
 **Purpose:**
-Log in to a remote server.
+Log in to a remote server
 
 **Password for Level 1:**
 `bandit0`
@@ -59,9 +59,9 @@ cat ./-
 
 ### Why?
 
-`-` can be interpreted as standard input.
+`-` can be interpreted as standard input
 
-`./-` explicitly tells the command to read the file named `-` from the current directory.
+`./-` explicitly tells the command to read the file named `-` from the current directory
 
 **Password for Level 3:**
 `PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
@@ -82,7 +82,7 @@ ls -a
 
 ### Why?
 
-`-a` means **all**, so `ls` also displays hidden files.
+`-a` means **all**, so `ls` also displays hidden files
 
 **Password for Level 4:**
 `xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq`
@@ -97,17 +97,17 @@ ls -a
 file
 ```
 
-`file` = determine a file's type.
+`file` = determine a file's type
 
 ```bash
 reset
 ```
 
-`reset` = reset the terminal and fix a messed-up display.
+`reset` = reset the terminal and fix a messed-up display
 
 ### The challenge
 
-Find the only human-readable file among many.
+Find the only human-readable file among many
 
 ### Solution
 
@@ -116,7 +116,7 @@ cd inhere
 file ./*
 ```
 
-`file ./*` checks the type of every file in the directory.
+`file ./*` checks the type of every file in the directory
 
 Then:
 
