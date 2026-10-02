@@ -70,6 +70,29 @@ cat ./-
 
 ## Level 3
 
+### Problem
+
+The file is named `--spaces in this filename--`.
+
+### Command
+
+```bash
+cat "./--spaces in this filename"
+```
+
+### Why?
+
+With `"..."` the shell passes it as one argument 
+
+Without quotes the shell split it into three arguments 
+
+**Password for Level 4:**
+`7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME`
+
+---
+
+## Level 4
+
 ### What I learned
 
 Hidden files start with `.`.
@@ -89,7 +112,7 @@ ls -a
 
 ---
 
-## Level 4
+## Level 5
 
 ### Commands learned
 
