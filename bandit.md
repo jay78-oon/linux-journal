@@ -105,7 +105,7 @@ ls -a
 
 `-a` means **all**, so `ls` also displays hidden files.
 
-**Password for Level 4:**
+**Password for Level 5:**
 `xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq`
 
 ---
@@ -140,5 +140,21 @@ Then:
 cat ./<human-readable-file>
 ```
 
-**Password for Level 5:**
+**Password for Level 6:**
 `6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG`
+
+---
+
+## Level 6
+
+### The challenge 
+
+Find the file that has matched these conditions, `human-readable, 1033 bytes in size, not executable`.
+
+### The solution 
+
+### Why?
+
+**Password for Level 7:**
+
+---
