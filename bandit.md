@@ -11,7 +11,7 @@ ssh <username>@<server> -p <port>
 ```
 
 **Purpose:**
-Log in to a remote server
+Log in to a remote server.
 
 **Password for Level 1:**
 `bandit0`
@@ -59,9 +59,9 @@ cat ./-
 
 ### Why?
 
-`-` can be interpreted as standard input
+`-` can be interpreted as standard input.
 
-`./` is the path to a file of the current directory
+`./` is the path to a file of the current directory.
 
 **Password for Level 3:**
 `PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
@@ -82,7 +82,7 @@ cat "./--spaces in this filename"
 
 ### Why?
 
-With quotes `"..."` the shell passes it as one argument while **without** it, the shell split it into three arguments 
+With quotes `"..."` the shell passes it as one argument while **without** it, the shell split it into three arguments. 
 
 **Password for Level 4:**
 `7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME`
@@ -103,7 +103,7 @@ ls -a
 
 ### Why?
 
-`-a` means **all**, so `ls` also displays hidden files
+`-a` means **all**, so `ls` also displays hidden files.
 
 **Password for Level 4:**
 `xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq`
@@ -118,21 +118,21 @@ ls -a
 file
 ```
 
-`file` = determine a file's type
+`file` = determine a file's type.
 
 ### The challenge
 
-Find the only human-readable file among many
+Find the only human-readable file among many.
 
 ### Solution
 
 ```bash
 file ./*
 
-#give me the file type of all files in this directory
+# Give me the file type of all files in this directory.
 ```
 
-`*` is a wildcard. It roughly means `match every filename here` excluding hidden files
+`*` is a wildcard. It roughly means `match every filename here` excluding hidden files.
 
 Then:
 
