@@ -82,9 +82,7 @@ cat "./--spaces in this filename"
 
 ### Why?
 
-With `"..."` the shell passes it as one argument 
-
-Without quotes the shell split it into three arguments 
+With quotes `"..."` the shell passes it as one argument  while without it, the shell split it into three arguments 
 
 **Password for Level 4:**
 `7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME`
