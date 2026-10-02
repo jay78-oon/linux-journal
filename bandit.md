@@ -61,7 +61,7 @@ cat ./-
 
 `-` can be interpreted as standard input
 
-`./` is the path to the current directory
+`./` is the path to a file of the current directory
 
 **Password for Level 3:**
 `PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
@@ -82,7 +82,7 @@ cat "./--spaces in this filename"
 
 ### Why?
 
-With quotes `"..."` the shell passes it as one argument  while without it, the shell split it into three arguments 
+With quotes `"..."` the shell passes it as one argument while **without** it, the shell split it into three arguments 
 
 **Password for Level 4:**
 `7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME`
@@ -112,19 +112,13 @@ ls -a
 
 ## Level 5
 
-### Commands learned
+### What I learned 
 
 ```bash
 file
 ```
 
 `file` = determine a file's type
-
-```bash
-reset
-```
-
-`reset` = reset the terminal and fix a messed-up display
 
 ### The challenge
 
@@ -133,11 +127,12 @@ Find the only human-readable file among many
 ### Solution
 
 ```bash
-cd inhere
 file ./*
+
+#give me the file type of all files in this directory
 ```
 
-`file ./*` checks the type of every file in the directory
+`*` is a wildcard. It roughly means `match every filename here` excluding hidden files
 
 Then:
 
