@@ -61,7 +61,7 @@ cat ./-
 
 `-` can be interpreted as standard input
 
-`./-` explicitly tells the command to read the file named `-` from the current directory
+`./` is the path to the current directory
 
 **Password for Level 3:**
 `PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
