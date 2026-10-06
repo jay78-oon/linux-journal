@@ -239,7 +239,6 @@ Find the password stored in the file `data.txt` next to the word `millionth`.
 
 * `grep` = search text for a pattern
 
-* `base64` = encode or decode Base64
 * `tr` = translate or delete characters
 * `tar` = create or extract archieves
 * `gzip` = compress/ decompress files using gzip
@@ -299,3 +298,37 @@ Find the password stored in `data.txt` file in one of the few **human-readable s
 ` `
 
 ---
+
+## Level 10
+
+### The challenge
+
+Find the password stored in 'data.txt', which contains base64 encoded data.
+
+### What I learned
+
+* `base64` = encode or decode Base64
+
+### The solution
+
+```bash
+```
+
+**Password for Level 11:**
+
+---
+
+## Level 11
+
+### The challenge
+
+Find the password stored in 'data.txt', where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
+
+### What I learned
+
+### The solution
+
+```bash
+```
+
+**Password for Level 12:**
