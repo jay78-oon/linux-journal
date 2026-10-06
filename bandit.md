@@ -188,7 +188,6 @@ cat .file2
 The `.` at the beginning of `.file2` is part of the filename. It is a hidden file.
 
 **Password for Level 6:** 
-
 `pXa26xhMWaC2SvDotA4r9EgZkulOeSBW`
 
 ---
@@ -226,7 +225,6 @@ cat /var/lib/dpkg/info/bandit7.password
 ```
 
 **Password for Level 7:**
-
 `Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3`
 
 ---
